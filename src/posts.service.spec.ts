@@ -14,11 +14,11 @@ describe('PostsService', () => {
 
   it('should add a new post', () => {
     postsService.create(post);
-    expect(postsService.find('8')).toMatchObject(post)
+    expect(postsService.find('2')).toMatchObject(post)
   });
 
   it('should find a post', () => {
     postsService.create(post);
-    expect(postsService.find('8')).toMatchObject(post)
+    expect(postsService.find('2')).toMatchObject(post)
   });
 });
